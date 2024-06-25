@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>empreg</title>
+    <style>
+        .th1{
+            text-align:left;
+        }
+        .th2{
+        text-align:start;
+        padding-left: 40px;
+       
+        }
+        .butt{
+            padding-inline: 17px;
+            margin: -178px;
+            margin-left: 183px;
+        }
+        img{
+            height: 100px;
+             width: 100px;
+            padding-top: 10px;        }
+    </style>
+</head>
+
+<body>
+    
+    <h1 style="color: red; "><img src="img/emp.jpeg" alt="">Employee Registration Form </h1>
+        <form action="#" method="get" name="reg_page">
+            <table border-collapse: collapse;>
+            <tr>
+                <th class="th1"><label for="">Gender</label></th>
+                <th class="th2" style=" padding-left: 45px;"><input type="radio" name="gen" id="">
+                    <label for="">Male</label>
+                    <input type="radio" name="gen" id="">
+                    <label for="">Female</label>
+                    <input type="radio" name="gen" id="">
+                    <label for="">Others</label>
+                </th>
+            </tr>
+            <tr>
+                <th class="th1"><label for="fname">First-Name</label>
+
+                <th class="th2"><input type="text" id="fname" name="f_name" placeholder="Enter name"
+                        required></th>
+            </tr>
+            <tr>
+                <th class="th1"><label for="lname">Last-Name</label></th>
+                <th class="th2"><input type="text" id="lname" name="l_name" placeholder="Enter last-name"
+                        required></th>
+            </tr>
+            <tr>
+                <th class="th1"><label for="">Muil address1</label></th>
+                <th class="th2"> <input type="text" placeholder="Muil address1"></th>
+            </tr>
+            <tr>
+                <th class="th1"><label for="">Muil address2</label></th>
+                <th class="th2"><input type="text" placeholder="Muil address2"></th>
+            </tr>
+            <tr>
+                <th class="th1" ><label for="">city</label></th>
+                <th class="th2"><input type="text" placeholder="city"></th>
+            </tr>
+            <tr>
+                <th class="th1"><label for="state">state</label></th>
+                <th class="th2"> <select name="state" id="state">
+                        <option value="0">---select---</option>
+                        <option value="1" >Gujarat</option>
+                        <option value="2">Haryana</option>
+                        <option value="3">Goa</option>
+                    </select></th>
+            </tr>
+            <tr>
+                <th class="th1"><label for="">Zip</label></th>
+                <th class="th2"> <input type="text" placeholder="Zip"></th>
+            </tr>
+            <tr>
+                <th class="th1"> <label for="">Upload file</label></th>
+                <th class="th2"><input type="file"></th>
+            </tr>
+            <tr>
+                <th class="th1"> <label for="">E-mail</label></th>
+                <th class="th2"> <input type="text" placeholder="E-mail"></th>
+            </tr>
+            <tr>
+                <th class="th1"> <label for="">Mobile</label></th>
+                <th class="th2"><input type="text" placeholder="+91"></th>
+            </tr>
+            <tr>
+                <th class="th1"><label for="">Languages Known</label>
+                <th class="th2"><input type="checkbox" name="check1" >
+                    <label for="">Gujarat</label><br>
+                    <input type="checkbox" name="check2">
+                    <label for="">Hindi</label><br>
+                    <input type="checkbox" name="check3">
+                    <label for="">Englisg</label><br>
+                    <input type="checkbox" name="check4">
+                    <label for="">Marathi</label></th>
+            </tr>
+        <tr>
+            <th class="th1"> <label for="add">Address</label></th>
+            <th ><textarea name="address" id="add" cols="20" rows="5" placeholder="Enter Address"></textarea></th>
+        </tr>
+        
+       
+        
+    </table>
+    <input class="butt" type="submit" name="submit" id="" value="Submit">
+    <input class="butt" type="reset" name="reset" id="" value="Clear">
+</form>
+
+   
+</body>
+
+</html>
