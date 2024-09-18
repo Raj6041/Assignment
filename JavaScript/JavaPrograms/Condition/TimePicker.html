@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greetings</title>
+</head>
+<body>
+    <label for="timeInput">Select a time:</label>
+    <input type="time" id="timeInput">
+    <button onclick="displayGreeting()">Show Greeting</button>
+
+    <script>
+        function displayGreeting() {
+            const timeInput = document.getElementById('timeInput');
+            const selectedTime = timeInput.value;
+
+           
+            const hour = parseInt(selectedTime.split(':')[0]);
+
+            let greeting;
+
+            if (hour >= 5 && hour < 12) {
+                greeting = 'Good morning!';
+            } else if (hour >= 12 && hour < 18) {
+                greeting = 'Good afternoon!';
+            } else {
+                greeting = 'Good evening!';
+            }
+
+            alert(greeting);
+        }
+    </script>
+</body>
+</html>
