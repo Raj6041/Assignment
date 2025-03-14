@@ -79,5 +79,5 @@ export default App;
 - **`Link`** prevents page reloads and enables smooth navigation.  
 - **`Switch` (React Router v5) or `Routes` (React Router v6)** ensures only one route is rendered at a time.  
 
-🚀 **Modern React Router (v6) uses `Routes` instead of `Switch`.**
+ **Modern React Router (v6) uses `Routes` instead of `Switch`.**
 
